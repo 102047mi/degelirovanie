@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шапка с вкладками</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="tabcontent active" id="moscow">
+        <h1>Москва</h1>
+        <p>Москва - столица России</p>
+    </div>
+    <div class="tabcontent" id="paris">
+        <h1>Париж</h1>
+        <p>Париж - столица Франции</p>
+    </div>
+    <div class="tabcontent" id="tokyo">
+        <h1>Токио</h1>
+        <p>Токио - столица Японии</p>
+    </div>
+    <div class="tabcontent" id="oslo">
+        <h1>Осло</h1>
+        <p>Осло - столица Норвегии</p>
+    </div>
+    <div id="tabList">
+        <button class="tablink" data-city="moscow" id="defaultOpen">Москва</button>
+        <button class="tablink" data-city="paris">Париж</button>
+        <button class="tablink" data-city="tokyo">Токио</button>
+        <button class="tablink" data-city="oslo">Осло</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
