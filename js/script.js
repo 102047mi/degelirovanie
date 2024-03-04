@@ -25,5 +25,9 @@ tabList.addEventListener('click', (e) => {
     for (let tab of tabcontent) {
         //скрыть все вкладки
         tab.classList.remove('active');
+        //если id вкладки равен дата атрибуту:
+        if (tab.id == dataCity) {
+            tab.classList.add('active')
+        }
     }
 })
